@@ -1,3 +1,3 @@
-# My Awesome Book
+# Everything Notes
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This gitbook is a quick reference for everything that I once looked into. Currently maintained by Zhenqi Liu, 2018.
