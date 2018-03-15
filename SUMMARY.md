@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [shadowsocks](shadowsocks.md)
-* [gitbook](gitbook.md)
+* [Shadowsocks](shadowsocks.md)
+* [Gitbook](gitbook.md)
 
