@@ -1,0 +1,37 @@
+{
+  "plugins": ["anchor-navigation-ex", 
+              "katex", 
+              "gist", 
+              "etoc", 
+              "splitter", 
+              "prism", "-highlight",
+              "image-captions",
+              "advanced-emoji",
+              "search-pro", "-lunr", "-search"],
+  "pluginsConfig": {
+    "fontsettings": {
+      "theme": "white", 
+      "family": "sans",
+      "size": 1
+    },
+    "etoc": {
+      "h2lb": 3,
+      "header": 1,
+      "mindepth": 2,
+      "maxdepth": 4,
+      "notoc": false
+		},
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "associatedWithSummary": false,
+      "multipleH1": false,
+      "mode": "float",
+    "float": {
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      }
+    } 
+  }
+}
