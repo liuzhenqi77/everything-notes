@@ -39,7 +39,7 @@ nano config.json
 
 修改为如下内容，替换服务器地址，设定密码
 
-```bash
+```json
 {
     "server": "服务器地址",
     "server_ipv6": "::",
@@ -69,10 +69,10 @@ nano config.json
 
 ## 配置 SSR 客户端
 
-Windows 客户端下载地址
-https://github.com/ssrbackup/shadowsocksr-csharp/releases
-Android 客户端下载地址
-https://github.com/ssrbackup/shadowsocksr-android/releases
+Windows 客户端 [下载地址](https://github.com/ssrbackup/shadowsocksr-csharp/releases)
+
+Android 客户端 [下载地址](https://github.com/ssrbackup/shadowsocksr-android/releases)
+
 下载后按照前面配置文件填好设置即可
 
 ## 开启 TCP BBR 拥塞控制算法（可选）

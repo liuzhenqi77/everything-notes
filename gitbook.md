@@ -13,11 +13,13 @@ Configure the credentials according to
 ## Working with repo
 
 To clone the repo to local,
+
 ```bash
 git clone https://git.gitbook.com/{{UserName}}/{{Book}}.git
 ```
 
 The methods mentioned in the documentation can be used.
+
 ```bash
 git remote add gitbook https://git.gitbook.com/{{UserName}}/{{Book}}.git
 git push -u -f gitbook master
@@ -32,6 +34,7 @@ Install new packages
 ```bash
 gitbook install
 ```
+
 Start local debugging
 
 ```bash
@@ -39,20 +42,21 @@ gitbook serve
 ```
 
 ## Example of `book.json`
+
 ```json
 {
-  "plugins": ["anchor-navigation-ex", 
-              "katex", 
-              "gist", 
-              "etoc", 
-              "splitter", 
+  "plugins": ["anchor-navigation-ex",
+              "katex",
+              "gist",
+              "etoc",
+              "splitter",
               "prism", "-highlight",
               "image-captions",
               "advanced-emoji",
               "search-pro", "-lunr", "-search"],
   "pluginsConfig": {
     "fontsettings": {
-      "theme": "white", 
+      "theme": "white",
       "family": "sans",
       "size": 1
     },
@@ -62,7 +66,7 @@ gitbook serve
       "mindepth": 2,
       "maxdepth": 4,
       "notoc": false
-		},
+    },
     "anchor-navigation-ex": {
       "showLevel": false,
       "associatedWithSummary": false,
@@ -74,7 +78,7 @@ gitbook serve
         "level2Icon": "fa fa-hand-o-right",
         "level3Icon": "fa fa-hand-o-right"
       }
-    } 
+    }
   }
 }
 ```
@@ -98,13 +102,14 @@ Code highlighting
 Gist
 
 use the package as follows:
-```
+
+```bash
 {% gist id="https://gist.github.com/SamyPesse/6ceb8cb8d531ffab75f0" %}{% endgist %}
- 
+
 {% gist id="SamyPesse/6ceb8cb8d531ffab75f0" %}{% endgist %}
- 
+
 {% gist id="SamyPesse/6ceb8cb8d531ffab75f0",file="README.md" %}{% endgist %}
- 
+
 {% gist id="SamyPesse/6ceb8cb8d531ffab75f0",hideFooter=true %}{% endgist %}
 ```
 
